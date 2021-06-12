@@ -66,13 +66,3 @@ button:hover {
     transition: all 0.3s;
     background:  #b7e0f0;
 }
-
-@media only screen and (max-width: 600px){
-    .nav-links-wrapper {
-        padding-left: 0px;
-    }
-    .nav-brand{
-        margin-left: 10px;
-        font-size: 15px;
-    }
-}
