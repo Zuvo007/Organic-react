@@ -1,0 +1,28 @@
+.representative-wrapper {
+    margin-top: 100px;
+}
+.representative-header {
+        width: 400px;
+        margin: 0px auto;
+        font-size: 20px;
+        font-family: "kalam";
+        font-weight: bolder;
+        color: #374b5c;
+      
+}
+
+.representative-content {
+    width: 600px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.representative-cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to top,#ccf0f0,#d5f7ea);
+}
