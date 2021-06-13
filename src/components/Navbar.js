@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import logo from "../asset/Group 220.png";
 
@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <React.Fragment>
       <header className="navbar-header">
-        <img className="nav-logo" src={logo} alt="Image not found" />
+        <img className="nav-logo" src={logo} alt="Not found" />
         <h3 className="nav-brand">Organic</h3>
 
         <nav>

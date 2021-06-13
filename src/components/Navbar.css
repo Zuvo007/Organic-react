@@ -1,71 +1,77 @@
+/* all required css for the Navbar component */
 
 .navbar-header {
-    padding-top: 0;
+  padding-top: 0;
 }
+
 .nav-logo {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    top: 9%;
-    left: 6%;
-    cursor: pointer;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 6%;
+  left: 4%;
+  cursor: pointer;
 }
+
 .nav-brand {
-    font-size: 40px;
-    color: #374b5c;
-    cursor: pointer;
+  font-size: 40px;
+  color: #374b5c;
+  cursor: pointer;
 }
 
 .nav-brand:hover {
-    transition: all 0.8s ease-in;
-    transform: scale(1.1);
+  transition: all 0.8s ease-in;
+  transform: scale(1.1);
 }
 
 header {
-    row-gap: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
+  row-gap: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 }
 
-.nav-links, .nav-link, .contact-link {
-    font-family: "sans-serif";
-    font-weight: 600;
-    font-size: 20px;
-    color: #374b5c;
-    text-decoration: none;
+.nav-links,
+.nav-link,
+.contact-link {
+  font-family: "sans-serif";
+  font-weight: 600;
+  font-size: 20px;
+  color: #374b5c;
+  text-decoration: none;
 }
 
 .nav-links.active {
-    border-bottom: blue;
+  border-bottom: blue;
 }
+
 .nav-links-wrapper {
-    list-style: none;
-    padding-left: 30px;
+  list-style: none;
+  padding-left: 30px;
 }
 
 .nav-links {
-   display: inline-block;
-   padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .nav-links a {
-    transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .nav-links a:hover {
-    color: #a1afbb;
+  color: #a1afbb;
 }
 
 button {
-    padding: 9px 25px;
-    border: 2px solid #5fc9f3;
-    border-radius: 14px;
-    background: transparent;
-    transition: all 0.3s ease 0s;
+  padding: 9px 25px;
+  border: 2px solid #5fc9f3;
+  border-radius: 14px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
 }
 button:hover {
-    transition: all 0.3s;
-    background:  #b7e0f0;
+  transition: all 0.3s;
+  background: #b7e0f0;
 }
