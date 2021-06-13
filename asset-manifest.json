@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Organic-react/static/css/main.57f9e80d.chunk.css",
+    "main.js": "/Organic-react/static/js/main.06d643c6.chunk.js",
+    "main.js.map": "/Organic-react/static/js/main.06d643c6.chunk.js.map",
+    "runtime-main.js": "/Organic-react/static/js/runtime-main.1497e215.js",
+    "runtime-main.js.map": "/Organic-react/static/js/runtime-main.1497e215.js.map",
+    "static/js/2.d01c0b2f.chunk.js": "/Organic-react/static/js/2.d01c0b2f.chunk.js",
+    "static/js/2.d01c0b2f.chunk.js.map": "/Organic-react/static/js/2.d01c0b2f.chunk.js.map",
+    "static/js/3.b0f087e6.chunk.js": "/Organic-react/static/js/3.b0f087e6.chunk.js",
+    "static/js/3.b0f087e6.chunk.js.map": "/Organic-react/static/js/3.b0f087e6.chunk.js.map",
+    "index.html": "/Organic-react/index.html",
+    "static/css/main.57f9e80d.chunk.css.map": "/Organic-react/static/css/main.57f9e80d.chunk.css.map",
+    "static/js/2.d01c0b2f.chunk.js.LICENSE.txt": "/Organic-react/static/js/2.d01c0b2f.chunk.js.LICENSE.txt",
+    "static/media/Group 134.efbd04e6.png": "/Organic-react/static/media/Group 134.efbd04e6.png",
+    "static/media/Group 195.71ea1be1.png": "/Organic-react/static/media/Group 195.71ea1be1.png",
+    "static/media/Group 228.317690fe.png": "/Organic-react/static/media/Group 228.317690fe.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1497e215.js",
+    "static/js/2.d01c0b2f.chunk.js",
+    "static/css/main.57f9e80d.chunk.css",
+    "static/js/main.06d643c6.chunk.js"
+  ]
+}
