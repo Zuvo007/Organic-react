@@ -1,3 +1,5 @@
+/* all required css for the Subscribe component */
+
 .subscribe-note-wrapper {
   margin-top: 100px;
 }
@@ -36,6 +38,7 @@
 input:focus {
   outline: none;
 }
+
 .email-id {
   background: transparent;
   border: 2px solid #95c2e9;
