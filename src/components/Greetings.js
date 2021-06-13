@@ -2,7 +2,7 @@ import React from "react";
 import "./Greetings.css";
 import greetImg from "../asset/Group 114.png";
 
-function Greetings() {
+const Greetings = () => {
   return (
     <div className="greetings-note-wrapper">
       <div className="greeting-img">
