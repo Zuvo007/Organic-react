@@ -1,0 +1,31 @@
+/* all required css for the Footer component */
+
+.footer-wrapper {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #374b5c;
+  color: #e4dede;
+  height: 550px;
+  background-image: linear-gradient(to top, #0d0e0f, #ccf0f0);
+}
+
+.follow-us {
+  justify-content: center;
+  align-items: center;
+}
+
+.follow-us-heading {
+  padding-left: 40px;
+}
+
+.fa {
+  padding: 9px;
+}
+
+.footer-menu a,
+a.fa {
+  color: #e4dede;
+  text-decoration: none;
+}
