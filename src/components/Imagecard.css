@@ -1,13 +1,16 @@
+/* all required css for the Imagecard component */
+
 .image-card-wrapper {
-    padding-right: 20px;
-    margin-top: 100px;
-    text-align:  center;
+  padding-right: 20px;
+  margin-top: 100px;
+  text-align: center;
 }
 
 .image-card {
-    padding: 20px;
-    cursor: pointer;
+  padding: 20px;
+  cursor: pointer;
 }
+
 .image-card:hover {
-    filter: brightness(80%);
+  filter: brightness(80%);
 }
