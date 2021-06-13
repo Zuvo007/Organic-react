@@ -2,10 +2,14 @@ import React from "react";
 import "./Brief.css";
 import logoProtoImg from "../asset/Group 228.png";
 import flowerImg from "../asset/Group 195.png";
+import leafImg from "../asset/Group 134.png";
 
-function Brief() {
+const Brief = () => {
   return (
     <div className="briefs-wrapper">
+      <div className="left-side-img-wrapper">
+        <img src={leafImg} className="left-side-img" alt="Not found" />
+      </div>
       <div className="brief-description">
         <div className="brief-description-title">Healthy life with</div>
         <div className="brief-description-subtitle">Nature Organic</div>
@@ -20,13 +24,13 @@ function Brief() {
         </div>
       </div>
       <div className="brief-section-img">
-        <img src={flowerImg} alt="" srcset="" />
+        <img src={flowerImg} alt="Not found" />
       </div>
       <div className="logo-proto-helper">
-        <img src={logoProtoImg} className = "logo-image" alt="No image Found" srcset="" />
+        <img src={logoProtoImg} className="logo-image" alt="Not Found" />
       </div>
     </div>
   );
-}
+};
 
 export default Brief;
