@@ -1,9 +1,12 @@
 
+.navbar-header {
+    padding-top: 0;
+}
 .nav-logo {
     height: 40px;
     width: 40px;
     position: absolute;
-    top: 13%;
+    top: 9%;
     left: 6%;
     cursor: pointer;
 }
