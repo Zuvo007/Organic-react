@@ -1,8 +1,9 @@
+/* all required css for the App component */
+
 .App {
   margin: 0px;
-  padding: 20px;
+  padding: 0px;
   box-sizing: border-box;
-  height: 3120px;
   background-color: #ccf0f0;
   overflow: hidden;
 }
