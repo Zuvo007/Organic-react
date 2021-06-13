@@ -1,9 +1,8 @@
 import React from "react";
 import "./Footer.css";
-import footerBackgroundImg from "../asset/Group 229.png";
 import logoIcon from "../asset/Group 220.png";
 
-function Footer() {
+const Footer = () => {
   return (
     <footer className="footer-wrapper">
       <div className="conclusion">
@@ -17,19 +16,29 @@ function Footer() {
         </div>
         <div className="conclusion-lines" style={{ width: "300px" }}>
           <p className="conclusio-text">
-            Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor 
+            Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor
           </p>
         </div>
         <div className="copyright-icon">
-          ©️ Copyright 2021 All rights Reserved Zu
+          ©️ Copyright 2021 All rights Reserved
         </div>
       </div>
       <div className="footer-menu">
-        <h3 className="footer-menu-heading"><a href="#">Information</a></h3>
-        <h5 className="footer-menu-options"><a href="#">About US</a></h5>
-        <h5 className="footer-menu-options"><a href="#">Products</a></h5>
-        <h5 className="footer-menu-options"><a href="#">Contact Us</a></h5>
-        <h5 className="footer-menu-options"><a href="#">Terms of Service</a></h5>
+        <h3 className="footer-menu-heading">
+          <a href="#">Information</a>
+        </h3>
+        <h5 className="footer-menu-options">
+          <a href="#">About US</a>
+        </h5>
+        <h5 className="footer-menu-options">
+          <a href="#">Products</a>
+        </h5>
+        <h5 className="footer-menu-options">
+          <a href="#">Contact Us</a>
+        </h5>
+        <h5 className="footer-menu-options">
+          <a href="#">Terms of Service</a>
+        </h5>
       </div>
       <div className="follow-us">
         <h3 className="follow-us-heading">Follow Us</h3>
@@ -42,6 +51,6 @@ function Footer() {
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
